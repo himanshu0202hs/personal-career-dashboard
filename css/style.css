@@ -1,0 +1,106 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #080f20;
+    color: white;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8%;
+    background: #101b31;
+}
+
+.logo {
+    color: #4da3ff;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #4da3ff;
+}
+
+#themeToggle {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    padding: 140px 20px;
+}
+
+.tagline {
+    color: #4da3ff;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.hero h1 span,
+.hero h2 span {
+    color: #4da3ff;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+}
+
+.hero p {
+    margin-bottom: 25px;
+    line-height: 1.7;
+}
+
+.primary-btn {
+    display: inline-block;
+    background: #267de5;
+    color: white;
+    padding: 14px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.primary-btn:hover {
+    background: #125bb5;
+    transform: translateY(-3px);
+}
+
+body.light-mode {
+    background: #f2f6fc;
+    color: #17243a;
+}
+
+body.light-mode .navbar {
+    background: #ffffff;
+}
+
+body.light-mode nav a {
+    color: #17243a;
+}

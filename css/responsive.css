@@ -1,0 +1,21 @@
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero {
+        padding: 90px 20px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+}
